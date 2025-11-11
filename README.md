@@ -51,21 +51,4 @@ Ce projet couvre toutes les étapes typiques d’un workflow Data Science :
   - RMSE : ~273,759€
 - **Variables les plus importantes** : `superficie_m2`, `quartier_encoded`, `type_logement_encoded`, `etat_encoded`
 
----
 
-# Fonction de prédiction
-Exemple d’utilisation :
-
-```python
-predire_prix_maison(
-    superficie=150,
-    nb_pieces=5,
-    quartier='Zone résidentielle',
-    type_logement='Maison',
-    etat='Neuf',
-    annee_construction=2020,
-    balcon=1,
-    garage=1,
-    proximite_metro=0
-)
-# Résultat attendu : ~1,562,000€
